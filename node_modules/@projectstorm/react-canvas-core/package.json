@@ -1,0 +1,74 @@
+{
+  "_from": "@projectstorm/react-canvas-core@^6.2.0",
+  "_id": "@projectstorm/react-canvas-core@6.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-GxypohDe86O+4DtHi2joGaDuoP7L8l4ppe/1987JhcPM+RmFZw4FJzNVg7kUVIPvQDMBhebXwywDGEz85uluMQ==",
+  "_location": "/@projectstorm/react-canvas-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@projectstorm/react-canvas-core@^6.2.0",
+    "name": "@projectstorm/react-canvas-core",
+    "escapedName": "@projectstorm%2freact-canvas-core",
+    "scope": "@projectstorm",
+    "rawSpec": "^6.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^6.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@projectstorm/react-canvas-core/-/react-canvas-core-6.2.0.tgz",
+  "_shasum": "46fe2316ff949d7da07e2d215bc0bc6fdd98ca05",
+  "_spec": "@projectstorm/react-canvas-core@^6.2.0",
+  "_where": "/Users/Minor/Documents/GitHub/react-diagrams-core",
+  "author": {
+    "name": "dylanvorster"
+  },
+  "bugs": {
+    "url": "https://github.com/projectstorm/react-diagrams/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@projectstorm/geometry": "^6.2.0"
+  },
+  "deprecated": false,
+  "gitHead": "c5b24f6e7b0fce76e221b348d3f027e6144ef5cb",
+  "homepage": "https://github.com/projectstorm/react-diagrams#readme",
+  "keywords": [
+    "web",
+    "diagram",
+    "diagrams",
+    "react",
+    "typescript",
+    "flowchart",
+    "simple",
+    "links",
+    "nodes"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/es/index.js",
+  "name": "@projectstorm/react-canvas-core",
+  "peerDependencies": {
+    "closest": "^0.0.1",
+    "lodash": "4.*",
+    "react": "16.*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectstorm/react-diagrams.git"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/webpack",
+    "build:es": "../../node_modules/.bin/tsc",
+    "build:prod": "NODE_ENV=production ../../node_modules/.bin/webpack && NODE_ENV=production ../../node_modules/.bin/tsc",
+    "clean": "rimraf ./dist"
+  },
+  "typings": "./dist/@types/index",
+  "version": "6.2.0"
+}
